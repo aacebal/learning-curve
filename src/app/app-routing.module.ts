@@ -5,6 +5,7 @@ import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
+  { path: 'learning-graph', component: LearningGraphComponent},
   { path: 'dashboard', component: HomeComponent },
 ];
 
